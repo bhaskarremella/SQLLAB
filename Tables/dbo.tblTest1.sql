@@ -1,0 +1,12 @@
+CREATE TABLE [dbo].[tblTest1]
+(
+[col1] [nchar] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[col2] [nchar] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+INDEX [tblTest1_index] NONCLUSTERED HASH ([col1]) WITH (BUCKET_COUNT=1024)
+)
+WITH
+(
+MEMORY_OPTIMIZED = ON,
+DURABILITY = SCHEMA_ONLY
+)
+GO

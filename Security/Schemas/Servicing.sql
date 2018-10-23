@@ -1,0 +1,3 @@
+CREATE SCHEMA [Servicing]
+AUTHORIZATION [dbo]
+GO

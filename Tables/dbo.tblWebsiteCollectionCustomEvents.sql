@@ -1,0 +1,31 @@
+CREATE TABLE [dbo].[tblWebsiteCollectionCustomEvents]
+(
+[eventName] [varchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[eventCount] [varchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[internalId] [varchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[internalDocumentVersion] [varchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[eventTime] [varchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[isSynthetic] [varchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[samplingRate] [varchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[deviceRoleInstance] [varchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[deviceType] [varchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[deviceBrowser] [varchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[deviceBrowserVersion] [varchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[deviceModel] [varchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[deviceName] [varchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[deviceId] [varchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[deviceOsVersion] [varchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[city] [varchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[clientIp] [varchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[continent] [varchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[country] [varchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[province] [varchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[operationId] [varchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[operationParentId] [varchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[operationName] [varchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[isFirstSesssion] [varchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[sessionId] [varchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[userAnonymousId] [varchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[userIsAuthenticated] [varchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
